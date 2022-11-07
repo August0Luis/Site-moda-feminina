@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+a {
+    color: #bbbbbb;
+    text-decoration: none;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 26px;
+    font-style: #343A40;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 26px;
+    font-style: #343A40;
+}
+
+span {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 19px;
+}
+
+/* cabeçalho */
+header {
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+    background-color: #000000;
+}
+
+.cabecalho {
+    max-width: 80%;
+    height: 54px;
+    margin: auto;
+    display: flex;
+}
+
+.busca {
+    padding-left: 7%;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    position: absolute;
+    height: 44px;
+    width: 40%;
+    top: 25px;
+    border-radius: 50px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.busca input {
+    background-image: url(/img/busca.png);
+    background-repeat: no-repeat;
+    background-position: 96%;
+}
+
+input::placeholder {
+    position: absolute;
+    left: 25px;
+    top: 13px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #24262b;
+    font-weight: 500;
+}
+
+.entrar {
+    margin-left: 55%;
+    display: flex;
+    align-items: center;
+}
+
+.carrinho {
+    padding-left: 3%;
+    display: flex;
+    align-items: center;
+}
+
+/* categorias */
+nav {
+    height: 41px;
+    width: 100%;
+    background-color: #24262b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa {
+    width: 80%;
+    height: 41px;
+}
+
+.caixa ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+    transition: all 0.3s ease;
+}
+
+.categorias {
+    position: absolute;
+    text-decoration: white;
+    margin-top: 10px;
+}
+
+.masculino {
+    position: absolute;
+    margin-left: 196px;
+    margin-top: 10px;
+}
+
+.feminino {
+    position: absolute;
+    margin-left: 318px;
+    margin-top: 10px;
+}
+
+.promocoes {
+    position: absolute;
+    margin-left: 433px;
+    margin-top: 10px;
+}
+
+/* menu */
+main {
+    width: 89%;
+    padding-top: 50px;
+    margin: auto;
+}
+
+/* section */
+section.produtos {
+    width: 80%;
+    padding-top: 40px;
+    margin: auto;
+    text-align: justify;
+}
+
+.veja-mais {
+    max-width: 1189px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 1em;
+}
+
+.imagens-veja-mais1 {
+    padding: 0px 32.3px 0px 0px;
+}
+
+.imagens-veja-mais2 {
+    padding: 0px 32.3px 0px 0px;
+}
+
+.imagens-veja-mais3 {
+    padding: 0px 32.3px 0px 0px;
+}
+
+.imagens-veja-mais4 {
+    padding: 0px 0px 0px 0px;
+}
+
+.botao {
+    background-color: #000000;
+    width: 170px;
+    height: 34px;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tamanho-do-botao {
+    display: flex;
+    margin: auto;
+    max-width: 1189px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer */
+.container {
+    max-width: 83%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: #000000;
+    padding: 70px 0;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+/* Responsividade */
+
+@media (max-width: 500px) {
+    .cabecalho {
+        max-width: 100%;
+    }
+
+    .busca {
+        padding-left: 7%;
+    }
+
+    .entrar {
+        margin-left: 45%;
+    }
+}
